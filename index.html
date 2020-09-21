@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/8cd9fbf47d.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <title>LinkedIn</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="main_container">
+      <section class="search_bar">
+        <div class="back_arrow">
+          <i class="fas fa-arrow-left"></i>
+        </div>
+        <div class="search_input">
+          <i class="fas fa-search"></i>
+          <span>Yaar me</span>
+        </div>
+        <div class="option">
+          <i class="fas fa-ellipsis-v"></i>
+        </div>
+      </section>
+      <section class="admin_section">
+        <div><i class="far fa-building"></i>View As Admin</div>
+      </section>
+      <section class="only_for_home">
+        <img width="480" src="background.svg" />
+        <div class="logo_header">
+          <img class="main_logo" src="logo.jpg" width="70" />
+          <div style="font-weight: bold">
+            <i
+              class="fas fa-check"
+              style="margin-right: 0.3rem; margin-top: 1rem"
+            ></i
+            >Following
+          </div>
+        </div>
+        <div class="company_main_info">
+          <div class="company_name">YaarMe</div>
+          <div style="color: grey">
+            Information Service . Rapur Chhattisagath . 47 followers
+          </div>
+          <div>Bulding the world's most luxious social media</div>
+          <button class="visit_site">
+            visit website<i
+              class="fas fa-external-link-alt"
+              style="margin-left: 0.4rem"
+            ></i>
+          </button>
+          <div class="employe">
+            <img src="girl.jpg" class="avatar" alt="img" />
+            Hetvi work here
+          </div>
+        </div>
+      </section>
+      <section class="navbar">
+        <div id="nav_home" class="nav_item nav_active">Home</div>
+        <div id="nav_about" class="nav_item">About</div>
+        <div id="nav_jobs" class="nav_item">Jobs</div>
+        <div id="nav_people" class="nav_item">People</div>
+      </section>
+      <section class="main_content">
+        <section id="home_content" class="content">
+          <div class="home_content_top">
+            <span>Posts</span>
+            <div class="post">
+              <span class="selected_post">All</span>
+              <span>Images</span>
+              <span>Videos</span>
+              <span>Docuements</span>
+            </div>
+          </div>
+          <div class="home_content_middel">
+            <div class="home_content_middel_header">
+              <div class="home_header_first">
+                <img src="logo.jpg" alt="img" />
+                <div style="width: 80px">
+                  <div>YaarMe</div>
+                  <div>47 Follower</div>
+                  <div style="color: grey">2 month</div>
+                </div>
+              </div>
+              <div class="home_header_second">
+                <i class="fas fa-chevron-down"></i>
+              </div>
+            </div>
+            <div class="home_paragraph">
+              We have just stared working to devlop a social media platform
+              which aim to connect you with your firends and family in most
+              convenient way... <span style="color: grey">see more</span>
+            </div>
+            <img src="logo.jpg" width="480" />
+          </div>
+        </section>
+        <section id="about_content" class="hide content">
+          <div class="about_wrapper">
+            <div class="about_header">Overview</div>
+            <div>Connection you to the people and community you love</div>
+            <div class="table">
+              <div class="row">
+                <div>Website</div>
+                <div style="color: blue">
+                  <a href=">https://yaarme.com">https://yaarme.com</a>
+                </div>
+              </div>
+              <div class="row">
+                <div>Phone</div>
+                <div style="color: blue">9169538457</div>
+              </div>
+              <div class="row">
+                <div>Industry</div>
+                <div>Information Services</div>
+              </div>
+              <div class="row">
+                <div>Company Size</div>
+                <div>11-50 employees</div>
+              </div>
+              <div class="row">
+                <div>Headquarters</div>
+                <div>Raipur,Chhattisgarh</div>
+              </div>
+              <div class="row">
+                <div>Type</div>
+                <div>Privately Held</div>
+              </div>
+              <div class="row">
+                <div>Founded</div>
+                <div>2020</div>
+              </div>
+            </div>
+          </div>
+          <div class="about_wrapper">
+            <div class="about_header">Peopel also viewed</div>
+            <div class="follow_wrapper">
+              <div class="follow_info">
+                <img class="follow_img_logo" src="go-company.png" alt="img" />
+                <div class="follow_company">
+                  <div>GoTestSeries</div>
+                  <div>E-learning</div>
+                  <div class="follow_followers">40 followers</div>
+                </div>
+              </div>
+              <div class="follow_button">
+                <i class="fas fa-check follow_icon"></i>Following
+              </div>
+            </div>
+            <div class="follow_wrapper">
+              <div class="follow_info">
+                <img class="follow_img_logo" src="go-company.png" alt="img" />
+                <div class="follow_company">
+                  <div>gotestseries</div>
+                  <div>Capital Markets</div>
+                  <div class="follow_followers">1 follower</div>
+                </div>
+              </div>
+              <div class="follow_button">
+                <i class="fas fa-plus follow_icon"></i>Follow
+              </div>
+            </div>
+          </div>
+        </section>
+        <section id="jobs_content" class="hide content">
+          JOB DESCRIPTION
+        </section>
+        <section id="people_content" class="hide content">
+          PEOPLE DESCRIPTION
+        </section>
+      </section>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>

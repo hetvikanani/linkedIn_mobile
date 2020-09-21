@@ -1,0 +1,218 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+body {
+  margin: 0 auto;
+}
+.main_container {
+  width: 480px;
+  max-width: 500px;
+  margin: 0 auto;
+}
+.search_bar {
+  background-color: #0073b1;
+  color: white;
+  padding: 1rem 1rem;
+  display: grid;
+  grid-template-columns: 20% 60% 20%;
+  cursor: pointer;
+}
+
+.search_input {
+  border-bottom: 2px solid white;
+}
+.option {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.admin_section {
+  margin: 0.6rem 0rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  color: #0073b1;
+  font-size: 22px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.admin_section i {
+  margin-right: 0.5rem;
+}
+.logo_header {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+.company_main_info {
+  padding: 0.5rem;
+}
+.company_main_info div {
+  margin-bottom: 0.7rem;
+}
+.employe {
+  display: flex;
+  align-items: center;
+}
+.avatar {
+  margin-right: 0.5rem;
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+}
+.company_name {
+  font-size: 26px;
+  font-weight: bold;
+}
+.visit_site {
+  cursor: pointer;
+  border: none;
+  width: 100%;
+  margin: 0rem 0.5rem 2rem 0.5rem;
+  padding: 0.5rem;
+  background: #0073b1;
+  color: white;
+  outline: none;
+  text-transform: uppercase;
+  transition: all 0.3s ease-in-out;
+}
+.visit_site:hover {
+  transform: scale(1.04);
+}
+.main_logo {
+  position: relative;
+  top: -40px;
+  right: -30px;
+}
+.navbar {
+  border-top: 2px solid lightgray;
+  border-bottom: 2px solid lightgray;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 0.7rem;
+}
+.nav_item {
+  margin: 0rem 1rem;
+  padding: 0.2rem;
+  padding-bottom: 0.4rem;
+  cursor: pointer;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.nav_active {
+  color: #0073b1;
+  border-bottom: 5px solid #0073b1;
+}
+
+.main_content {
+  background-color: lightgray;
+  padding-top: 0.1rem;
+}
+
+.home_content_top {
+  padding: 0.5rem;
+  background-color: white;
+}
+.home_content_middel {
+  background-color: white;
+  padding: 1rem 1.3rem;
+  font-size: 18px;
+  margin-top: 0.2rem;
+}
+.home_content_middel_header {
+  display: flex;
+  justify-content: space-between;
+}
+.home_header_first {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  font-size: 14px;
+  margin-bottom: 1rem;
+}
+.home_header_first img {
+  width: 50px;
+}
+.home_content_top > span {
+  font-size: 20px;
+}
+.post {
+  margin: 1rem 0rem;
+}
+.selected_post {
+  background-color: grey !important;
+  color: white;
+}
+.post span {
+  margin: 0rem 0.8rem;
+  background-color: lightgrey;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.about_wrapper {
+  background-color: white;
+  padding: 1rem 1.3rem;
+  font-size: 18px;
+  margin-bottom: 0.2rem;
+}
+.about_header {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+.row {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  margin: 1.5rem 0rem;
+}
+
+.follow_wrapper {
+  padding: 0rem 0.2rem;
+  display: grid;
+  grid-template-columns: 75% 25%;
+  margin-bottom: 0.5rem;
+}
+.follow_info {
+  display: grid;
+  grid-template-columns: 25% 75%;
+  font-size: 14px;
+}
+.follow_info div {
+  margin-bottom: 0.2rem;
+}
+.follow_followers {
+  font-size: 12px;
+  color: grey;
+}
+.follow_img_logo {
+  width: 50px;
+  height: 50px;
+}
+.follow_button {
+  display: flex;
+  justify-content: flex-end;
+  color: #0073b1;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  align-items: center;
+}
+.follow_icon {
+  margin-right: 0.3rem;
+}
+
+.hide {
+  display: none;
+}
+
+.show {
+  display: block !important;
+}
